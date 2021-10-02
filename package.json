@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "name": "appson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html -d docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/referhus/appson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/referhus/appson/issues"
+  },
+  "homepage": "https://github.com/referhus/appson#readme",
+  "description": ""
+}
