@@ -1,1 +1,75 @@
-@import mixins;
+@import "colors";
+@import "header";
+@import "main-block";
+@import "feature";
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.btn {
+ font-size: 16px;
+ line-height: 20px;
+ font-weight: 700;
+ border-radius: 25px;
+ text-decoration: none;
+}
+
+.btn-default {
+ background: $LightBlue;
+ padding: 20px 44px;
+ color: #fff;
+}
+
+.btn-border {
+	border: 2px solid $LightBlue;
+	background: #fff;
+	color: $LightBlue;
+ padding: 20px 44px;
+}
+
+header, 
+.bg-main {
+	 background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+
+.bg-blue {
+	background: #F5FCFD;
+}
+
+
+@media screen and (max-width: 2100px) {
+	.container {
+	max-width: 1240px;
+ }
+
+ .btn {
+ font-size: 14px;
+ line-height: 15px;
+}
+
+.btn-default {
+ padding: 15px 30px;
+}
+
+.btn-border {
+ padding: 15px 30px;
+}
+}
