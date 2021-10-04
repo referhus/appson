@@ -1,0 +1,116 @@
+.pricing {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 130px 0;
+
+	&-desc {
+		width: 332px;
+	}
+
+	&-btns {
+		display: flex;
+		flex-direction: row;
+		margin-top: 40px;
+	}
+
+	&-btn-default {
+		font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border-radius: 25px 0 0 25px;
+  text-decoration: none;
+		background: $LightBlue;
+  padding: 14px 54px;
+  color: #fff;
+	}
+
+		&-btn-border {
+		font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border-radius: 0 25px 25px 0;
+  text-decoration: none;
+	 border: 2px solid $LightBlue;
+	 background: #fff;
+	 color: $LightBlue;
+  padding: 14px 54px;
+	}
+
+	&-plans {
+		display: flex;
+		flex-direction: row;
+	}
+
+ &-plan {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	text-align: center; 
+ 	box-shadow: 0px 4px 20px 0px #00245014;
+ 	width: 362px;
+ 	padding: 50px 100px;
+ 	box-sizing: border-box;
+ }
+
+ &-plan:last-child{
+ 	margin-left: 30px;
+ }
+}
+
+.plan-circle {
+	height: 86px;
+ width: 86px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: $DarkBlue;
+ position: relative;
+
+ &:after {
+ 	content: "";
+ 	position: absolute;
+ 	width: 114px;
+ 	height: 114px;
+ 	border-radius: 50%;
+ 	background: #0063DD26;
+  }
+ }
+
+ .plan-title {
+ 	margin-top: 34px;
+ 	margin-bottom: 25px;
+ 	position: relative;
+}
+
+.plan-line {
+	 	width: 303px;
+ 		height: 0;
+ 		border-top: 2px solid #E9F3F8;
+ 		margin-bottom: 20px;
+}
+
+.plan-list {
+
+}
+
+.plan-item {
+	font-size: 16px;
+	font-weight: 300;
+ line-height: 184%;
+}
+
+.price {
+	margin: 25px 0;
+	font-size: 32px;
+	color: $LightBlue;
+	line-height: 40px;
+	font-weight: 500;
+
+	small {
+  font-size: 18px;
+  line-height: 22px;
+	}
+}

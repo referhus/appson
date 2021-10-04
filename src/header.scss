@@ -27,7 +27,6 @@
 	 flex-direction: row;
 	 justify-content: space-between;
  	align-items: center;
- 	list-style-type: none;
 
   &-item {
    margin-right: 100px;
@@ -35,7 +34,6 @@
  }
 
 	 li a {
-		text-decoration: none;
 		font-size: 16px;
 		text-transform: uppercase;
 		font-weight: 500;

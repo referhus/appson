@@ -2,6 +2,10 @@
 @import "header";
 @import "main-block";
 @import "feature";
+@import "about";
+@import "stages";
+@import "pricing";
+@import "testimonials";
 
 * {
 	padding: 0;
@@ -11,7 +15,15 @@
 
 html,
 body {
-	overflow-x: hidden;
+	overflow-x: none;
+}
+
+li {
+ list-style-type: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 .container {
@@ -51,7 +63,7 @@ header,
 
 
 .bg-blue {
-	background: #F5FCFD;
+	background-color: #F5FCFD;
 }
 
 

@@ -4,8 +4,8 @@
 	justify-content: space-between;
 	height: 420px;
 	padding-bottom: 135px;
-
-	&-title {
+}
+.icon-title {
 		margin: 25px 0;
 		font-size: 18px;
 		line-height: 22.5px;
@@ -13,7 +13,7 @@
 		color: #000;
 	}
 
-	&-subtitle {
+.icon-subtitle {
 	 font-weight: 300;
 	 font-size: 16px;
 	 line-height: 20px;
@@ -21,7 +21,6 @@
 	 text-align: center;
 	 padding: 0 15px;
 	}
-}
 
 .card {
 	display: flex;
@@ -39,31 +38,23 @@
  }
 }
 
-.circle {
+.feature-circle {
  height: 70px;
  width: 70px;
  border-radius: 50%;
-
- &-blue {
-  background-color: #DFEDfF;
-  background-image: url(img/icon-1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
- }
-
- &-purple {
-  background: #F5DFFF;
-  background-image: url(img/icon-2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
- }
-
- &-green {
-  background: #DFFFE3;
-  background-image: url(img/icon-3.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
- }
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
+.circle-blue {
+  background-color: #DFEDfF;
+  }
+
+.circle-purple {
+  background: #F5DFFF;
+ }
+
+.circle-green {
+  background: #DFFFE3;
+ }
 
