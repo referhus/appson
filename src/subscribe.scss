@@ -1,0 +1,60 @@
+.bg-lightblue {
+	background: $LightBlue;
+	}
+
+	.subscribe {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 118px 0;
+
+		&-title {
+			font-weight: 700;
+   font-size: 36px;
+   line-height: 45px;
+   color: #FFFFFF;
+		}
+
+		&-form {
+			margin-top: 30px;
+			display: flex;
+			justify-content: center;
+		}
+
+		&-input,
+		&-btn {
+			border: none;
+			outline: none;
+			padding: 11px 0 15px;
+		}
+
+		&-input {
+			width: 392px;
+			border-radius: 25px 0 0 25px;
+			background: $DarkBlue;
+			color: #fff;
+			padding-left: 28px;
+			box-sizing: border-box;
+
+			&::placeholder {
+				color: #fff;
+				font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+			}
+			&::focus &::placeholder {
+				opacity: 0; 
+				transition: opacity 0.3s ease;
+			}
+		}
+
+		&-btn {
+			width: 166px;
+			border-radius: 0 25px 25px 0;
+			background: #fff;
+			color: $DarkBlue;
+			text-transform: uppercase;
+			cursor: pointer;
+		}
+	}
+

@@ -1,0 +1,26 @@
+.free {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 754px;
+	margin: 0 auto;
+	padding: 133px 0 113px;
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-btn {
+		 font-size: 16px;
+ line-height: 20px;
+ font-weight: 700;
+ border-radius: 25px;
+ text-decoration: none;
+ background: $LightBlue;
+ padding: 14px 68px;
+ color: #fff;
+
+	}
+}
