@@ -1,0 +1,18 @@
+@media screen and (max-width: 2100px) {
+}
+
+@media screen and (max-width: 550px) {
+	.line {
+display: none;
+	}
+
+	.stages-content {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.stage {
+		margin-top: 10px;
+	}
+}

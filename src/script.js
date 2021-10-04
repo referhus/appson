@@ -1,5 +1,7 @@
 import './style.scss';
 
+
+/*slider*/
 $(".testimonials-carousel").owlCarousel({
 	margin: 30,
 	loop:true,
@@ -13,10 +15,10 @@ $(".testimonials-carousel").owlCarousel({
 		0:{
 			items:1
 		},
-		600:{
+		800:{
 			items:1
 		},
-		1400:{
+		1300:{
 			items:2
 		},
 	 2560:{

@@ -10,6 +10,7 @@
 @import "free";
 @import "subscribe";
 @import "footer";
+@import "adaptive/adaptive";
 
 * {
 	padding: 0;
@@ -31,7 +32,7 @@ a {
 }
 
 .container {
-	max-width: 1920px;
+	max-width: 1820px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -52,40 +53,19 @@ a {
 
 .btn-border {
 	border: 2px solid $LightBlue;
-	background: #fff;
+	background: transparent;
 	color: $LightBlue;
  padding: 20px 44px;
 }
 
 header, 
 .bg-main {
-	 background-image: url(img/background.png);
+  background-image: url(img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; 
 }
 
-
 .bg-blue {
 	background-color: #F5FCFD;
-}
-
-
-@media screen and (max-width: 2100px) {
-	.container {
-	max-width: 1240px;
- }
-
- .btn {
- font-size: 14px;
- line-height: 15px;
-}
-
-.btn-default {
- padding: 15px 30px;
-}
-
-.btn-border {
- padding: 15px 30px;
-}
 }

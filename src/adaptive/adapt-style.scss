@@ -1,0 +1,25 @@
+@media screen and (max-width: 2100px) {
+ .container {
+  max-width: 1240px;
+ }
+
+ .btn {
+ font-size: 14px;
+ line-height: 15px;
+}
+
+ .btn-default {
+  padding: 15px 30px;
+ }
+
+ .btn-border {
+  padding: 15px 30px;
+ }
+}
+
+@media screen and (max-width: 860px) {
+header, 
+.bg-main {
+  background-size: 100%;
+}
+}

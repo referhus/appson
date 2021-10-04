@@ -1,0 +1,29 @@
+@media screen and (max-width: 1440px) {
+ .card {
+  width: 250px;
+ }
+}
+
+@media screen and (max-width: 860px) {
+   .feature {
+   justify-content: center;
+   flex-direction: column;
+   height: auto;
+  }
+
+ .card {
+  width: 300px;
+  margin-top: 50px;
+
+  &:nth-child(2) {
+ align-self: center;
+ }
+}
+
+}
+
+ @media screen and (max-width: 400px) {
+ .card {
+  width: 200px;
+ }
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width: 1440px) {
+	.pricing-plan {
+		width: 250px;
+		padding: 50px 20px;
+	}
+
+	.plan-title {
+ 	margin-top: 20px;
+ 	margin-bottom: 10px;
+}
+.plan-circle {
+	width: 70px;
+	height: 70px;
+	&:after {
+		width: 100px;
+		height: 100px;
+	}
+}
+	.plan-line {
+		width: 200px;
+ 	margin-bottom: 10px;
+	}
+
+	.price {
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.pricing {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		&-plans {
+			margin-top: 15px;
+		}
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.pricing-plans {
+		flex-direction: column;
+	}
+
+	.pricing-plan {
+		margin-top: 20px;
+		&:last-child {
+			margin-left: 0;
+		}
+	}
+.pricing-btn-default,
+.pricing-btn-border {
+ padding: 14px 40px;
+}
+}

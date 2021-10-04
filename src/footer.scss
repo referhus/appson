@@ -1,0 +1,52 @@
+.bg-darkblue {
+	background: $DarkBlue;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 125px;
+	position: relative;
+	padding: 10px 0 0;
+	box-sizing: border-box;
+
+	&-copyright,
+	&-item a {
+		font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+	}
+
+	&-list {
+		display: flex;
+		flex-direction: row;
+		width: 345px;
+		justify-content: space-between;
+	}
+
+	&-icons {
+		width: 100px;
+		display: flex;
+		justify-content: space-between;
+		img {
+			cursor: pointer;
+		}
+}
+
+&:after {
+	content: "↑";
+	position: absolute;
+	width: 70px;
+	height: 70px;
+ text-align: center;
+	color: $DarkBlue;
+	background: #fff;
+	border-radius: 50%;
+	font-size: 45px;
+	right: -5%;
+	cursor: pointer;
+}
+}

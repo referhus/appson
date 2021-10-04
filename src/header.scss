@@ -26,7 +26,7 @@
 	 display: flex;
 	 flex-direction: row;
 	 justify-content: space-between;
- 	align-items: center;
+ 	 align-items: center;
 
   &-item {
    margin-right: 100px;
@@ -38,51 +38,18 @@
 		text-transform: uppercase;
 		font-weight: 500;
 		line-height: 20px;
-
+    color: #929292;
+    transition: all 0.3 linear;
    &:hover {
  	  color: $LightBlue;
+    font-weight: 700;
    }
   }
 
  &-btn {
  	text-transform: uppercase;
  	background-color: $DarkBlue;
- 	color: #fff;
+ 	color: #fff !important;
  	padding: 15px 51px;
  }
-	}
-
-.burger {
-	display: none;
-}
-
-
-@media screen and (max-width: 2100px) {
-	.header {
-&-logo {
-	width: 140px;
-	padding: 15px 20px;
-	font-size: 29px;
-	font-weight: 700;
-	line-height: 30px;
-	}
-
-	&-menu {
-  &-item {
-   margin-right: 60px;
-  }
- }
-
-	 li a {
-		text-decoration: none;
-		font-size: 14px;
-		text-transform: uppercase;
-		font-weight: 500;
-		line-height: 17px;
-  }
-
- &-btn {
- 	padding: 10px 40px;
- }
-}
 }

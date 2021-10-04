@@ -1,5 +1,5 @@
 .stages {
-	display: flex;
+ display: flex;
  align-items: center;
  flex-direction: column;
  text-align: center;
@@ -49,7 +49,8 @@
 
 .line {
 	height: 0;
-	width: 780px;
+	max-width: 1280px;
+	width: 70%;
 	border-bottom: 2px dashed $DarkBlue;
 	position: absolute;
 	top: 14%;

@@ -1,0 +1,13 @@
+@media screen and (max-width: 960px) {
+ .free {
+  flex-direction: column;
+  width: auto;
+  &-content {
+   align-items: center;
+  }
+
+  &-btn {
+   margin-top: 10px;
+  }
+ }
+}
