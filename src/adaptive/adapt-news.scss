@@ -12,11 +12,15 @@
 }
 
 @media screen and (max-width: 860px) {
- .news-subtitle,
  .news-post-main,
  .news-post,
  .news-posts {
   width: 100%; 
+}
+
+.news-subtitle {
+ padding: 0 10px;
+ width: 400px;
 }
 
 .news-content {
@@ -37,6 +41,10 @@
 .news-content {
  width: 350px;
 }
+
+.news-subtitle {
+ width: 350px;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -52,6 +60,12 @@
  font-size: 16px;
 }
 
+.news-post-main-img {
+ width: 250px;
+ img {
+  width: 100%;
+ }
+}
 .news-post-content {
  margin-left: 10px;
 }

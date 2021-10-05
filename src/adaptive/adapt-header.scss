@@ -29,7 +29,9 @@
 @media screen and (max-width: 860px) {
 .header {
  flex-direction: column;
- 
+ &-logo {
+  align-self: center;
+ }
  &-menu {
   flex-direction: column;
   justify-content: center;

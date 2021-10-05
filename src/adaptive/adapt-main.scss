@@ -23,12 +23,28 @@
 }
 
 
+
 @media screen and (max-width: 860px) {
+  .main {
+   max-width: none;
+   padding: 0 10px;
+
+   &-title {
+   	font-size: 23px;
+   	margin-top: 40px;
+   }
+  }
+
  .phones {
   display: none;
  }
 .main:before,
 .main:after {
 display: none;
+}
+
+.btns {
+ flex-direction: column;
+ align-items: center;
 }
 }

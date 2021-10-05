@@ -20,7 +20,11 @@
 
 html,
 body {
-	overflow-x: none;
+ overflow-x: none;
+}
+
+body {
+ background: #fff;
 }
 
 li {
@@ -52,9 +56,9 @@ a {
 }
 
 .btn-border {
-	border: 2px solid $LightBlue;
-	background: transparent;
-	color: $LightBlue;
+ border: 2px solid $LightBlue;
+ background: transparent;
+ color: $LightBlue;
  padding: 20px 44px;
 }
 
