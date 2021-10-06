@@ -13,14 +13,21 @@
 	}
 
 	&-btn {
-		 font-size: 16px;
- line-height: 20px;
- font-weight: 700;
- border-radius: 25px;
- text-decoration: none;
- background: $LightBlue;
- padding: 14px 68px;
- color: #fff;
+		font-size: 16px;
+	 line-height: 20px;
+	 font-weight: 700;
+	 border-radius: 25px;
+	 border: 2px solid transparent;
+	 text-decoration: none;
+	 background: $LightBlue;
+	 padding: 14px 68px;
+	 color: #fff;
+  transition: all .4s linear;
 
+  &:hover {
+   background-color: #fff;
+   color: $DarkBlue;
+   border: 2px solid $DarkBlue;
+  }
 	}
 }

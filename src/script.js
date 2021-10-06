@@ -1,5 +1,18 @@
 import './style.scss';
 
+  /*scroll*/
+$(document).ready(function() {
+  let margin = 40; 
+  $("a.scroll-to").click(function() { // 
+  $("html:not(:animated),body:not(:animated)").animate({
+   scrollTop: $($(this).attr("href")).offset().top-margin+ "px" 
+     }, {
+        duration: 1600,
+        easing: "swing"
+      });
+      return false;
+   });
+});
 
 /*slider*/
 $(".testimonials-carousel").owlCarousel({

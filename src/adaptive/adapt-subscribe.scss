@@ -1,32 +1,39 @@
 @media screen and (max-width: 660px) {
-.subscribe-input {
-	width: 250px;
-}
-.subscribe-btn {
-	width: 130px;
-}
+ .subscribe {
+
+  &-input {
+  	width: 250px;
+  }
+
+  &-btn {
+  	width: 130px;
+  }
+ }
 }
 
 @media screen and (max-width: 400px) {
-.subscribe-input {
-	width: 150px;
-	padding-left: 17px;
+ .subscribe {
 
-	&::placeholder {
-		color: #fff;
-		font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-			}
+  &-input {
+  	width: 150px;
+  	padding-left: 17px;
 
-}
-.subscribe-btn {
-	width: 100px;
-	font-size: 12px;
-}
+  	&::placeholder {
+  		color: #fff;
+  		font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+  	}
+  }
 
-.subscribe-input, 
-.subscribe-btn {
- padding: 13px;
-}
+  &-btn {
+  	width: 100px;
+  	font-size: 12px;
+  }
+
+  &-input, 
+  &-btn {
+   padding: 13px;
+  }
+ }
 }

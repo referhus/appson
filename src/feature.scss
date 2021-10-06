@@ -4,25 +4,8 @@
 	justify-content: space-around;
 	height: 420px;
 	padding-bottom: 135px;
-}
-.icon-title {
-		margin: 25px 0;
-		font-size: 18px;
-		line-height: 22.5px;
-		font-weight: 500;
-		color: #000;
-	}
-
-.icon-subtitle {
-	 font-weight: 300;
-	 font-size: 16px;
-	 line-height: 20px;
-	 color: #000;
-	 text-align: center;
-	 padding: 0 15px;
-	}
-
-.card {
+ 
+ &-card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -33,30 +16,49 @@
 	border-radius: 5px;	
 	padding: 40px 15px;
 
- &:nth-child(2) {
-	align-self: flex-end;
+	 &:nth-child(2) {
+		align-self: flex-end;
+	 }
+ }
+
+ &-icon {
+	 height: 70px;
+	 width: 70px;
+	 border-radius: 50%;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
  }
 }
 
-.feature-circle {
- height: 70px;
- width: 70px;
- border-radius: 50%;
- display: flex;
- align-items: center;
- justify-content: center;
+.icon-title {
+	margin: 25px 0;
+	font-size: 18px;
+	line-height: 22.5px;
+	font-weight: 500;
+	color: #000;
 }
+
+.icon-subtitle {
+	font-weight: 300;
+	font-size: 16px;
+ line-height: 20px;
+	color: #000;
+	text-align: center;
+ padding: 0 15px;
+}
+
 .circle-blue {
-  background-color: #DFEDfF;
-  }
+ background-color: #DFEDfF;
+}
 
 .circle-purple {
-  background: #F5DFFF;
- }
+ background: #F5DFFF;
+}
 
 .circle-green {
-  background: #DFFFE3;
- }
+ background: #DFFFE3;
+}
 
 
  

@@ -10,64 +10,69 @@
 	<title>AppSon</title>
 </head>
 <body>
-		<header>
-			<nav class="header">
-	 		<a href="#" class="header-logo">AppSon</a>
-				<ul class="header-menu">
-					<li><a href="#" class="header-menu-item">home</a></li>
-					<li><a href="#" class="header-menu-item">features</a></li>
-					<li><a href="#" class="header-menu-item">pricing</a></li>
-					<li><a href="#" class="header-menu-item">pages</a></li>
-					<li><a href="#" class="btn header-btn">sign up</a></li>
-	   </ul>
-			</nav>
-		</header>
-		<section class="bg-main">
+	<header>
+		<nav class="header" id="home">
+	 	<a href="#home" class="header-logo">AppSon</a>
+			<ul class="header-menu">
+				<li><a href="#home" class="header-menu-item scroll-to">home</a></li>
+				<li><a href="#feature" class="header-menu-item scroll-to">features</a></li>
+				<li><a href="#pricing" class="header-menu-item scroll-to">pricing</a></li>
+				<li><a href="#" class="header-menu-item">pages</a></li>
+				<li><a href="#subscribe" class="header-btn scroll-to">sign up</a></li>
+	  </ul>
+		</nav>
+	</header>
+
+	<section class="bg-main">
 			<div class="container">
 				<div class="main">
 					<h1 class="main-title">Best Desktop App for You</h1>
 					<p class="main-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div class="btns">
-					 <a href="#" class="btn btn-default">Download</a>
-					 <a href="#" class="btn btn-border">Free Trial</a>
+					<div class="main-btns">
+					 <a href="#" class="btn">Download</a>
+					 <a href="#" class="btn">Free Trial</a>
 					</div>
 			 </div>
-			 <div class="phones">
-				 <div class="phone-left"><img src="src/img/phone-left.png"></div>
-					<div class="phone-center"><img src="src/img/phone-center.png"></div>
-					<div class="phone-right"><img src="src/img/phone-right.png"></div>
+			 <div class="main-phones">
+				 <div class="phone-left"><img src="src/img/phone-left.png" alt=""></div>
+					<div class="phone-center"><img src="src/img/phone-center.png" alt=""></div>
+					<div class="phone-right" alt=""><img src="src/img/phone-right.png"></div>
 				</div>
 			</div>
-		</section>
-		<section class="bg-blue">
+   <div class="scroll-down"><a href="#about" class="scroll-to"><img src="src/img/scroll-arrow-down.svg" alt=""></a>
+   </div>
+	</section>
+
+	<section class="bg-blue" id="feature">
 			<div class="container">
 				<div class="feature">
-					<div class="card">
-						<div class="feature-circle circle-blue">
+					<div class="feature-card">
+						<div class="feature-icon circle-blue">
 							<img src="src/img/icon-1.svg" alt="">
 						</div>
-						<h4 class="icon-title">Analysis</h4>
+						<h3 class="icon-title">Analysis</h3>
 						<p class="icon-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 					</div>
-				<div class="card">
-					<div class="feature-circle circle-purple">
+				<div class="feature-card">
+					<div class="feature-icon circle-purple">
 						<img src="src/img/icon-2.svg" alt="">
 					</div>
-					<h4 class="icon-title">Clean Design</h4>
+					<h3 class="icon-title">Clean Design</h3>
 					<p class="icon-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 				</div>
-				<div class="card">
-					<div class="feature-circle circle-green">
+				<div class="feature-card">
+					<div class="feature-icon circle-green">
 						<img src="src/img/icon-3.svg" alt="">
 					</div>
-					<h4 class="icon-title">Messaging</h4>
+					<h3 class="icon-title">Messaging</h3>
 					<p class="icon-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> 
+
 	<section class="container">
-		<div class="about">
+		<div class="about" id="about">
 			<div class="about-image">
 				<img src="src/img/about-img.png" alt="">
 			</div>
@@ -94,6 +99,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="bg-blue">
 		<div class="container">
 			<div class="stages">
@@ -102,39 +108,40 @@
 			</div>
 			<div class="stages-content">
 				<div class="stage">
-					<div class="stages-circle circle-blue">
+					<div class="stages-icon circle-blue">
 						<img src="src/img/icon-account.svg" alt="">
 					</div>
-					<h4 class="icon-title">Create An Account</h4>
+					<h3 class="icon-title">Create An Account</h3>
 					<p class="icon-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
 			 </div>
 			 <div class="line"></div>
 				<div class="stage">
-					<div class="stages-circle circle-blue ">
+					<div class="stages-icon circle-blue ">
 						<img src="src/img/icon-email.svg" alt="">
 					</div>
-					<h4 class="icon-title">Confirm Email</h4>
+					<h3 class="icon-title">Confirm Email</h3>
 					<p class="icon-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
 			 </div>
 				<div class="stage">
-					<div class="stages-circle circle-blue">
+					<div class="stages-icon circle-blue">
 						<img src="src/img/icon-result.svg" alt="">
 					</div>
-					<h4 class="icon-title">See Results</h4>
+					<h3 class="icon-title">See Results</h3>
 					<p class="icon-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
 			 </div>
 		 </div>
 		</div>
 	</section>
-	<section class="container">
+ 
+	<section class="container" id="pricing">
 		<div class="pricing">
 			<div class="pricing-desc">
 				<h2 class="about-title">Pricing Plan</h2>
 				<div class="about-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
 				</div>
 				<div class="pricing-btns">
-					<a href="#" class="pricing-btn-default">Mounthly</a>
-					<a href="#" class="pricing-btn-border">Yearly</a>				
+					<a href="#" class="pricing-btn">Mounthly</a>
+					<a href="#" class="pricing-btn">Yearly</a>				
 				</div>
 			</div>
 			<div class="pricing-plans">
@@ -142,7 +149,7 @@
 					<div class="plan-circle">
 						<img src="src/img/premium.png" alt="">
 					</div>
-					<h4 class="plan-title">Premium</h4>
+					<h3 class="plan-title">Premium</h3>
 					<div class="plan-line"></div>
 					<ul class="plan-list">
 						<li class="plan-item">2gb Hosting</li>
@@ -152,13 +159,13 @@
 						<li class="plan-item">Free Support</li>
 					</ul>
 					<div class="price"><small>$</small>49.00</div>
-					<a href="#" class="btn btn-default">Try Now</a>					
+					<a href="#" class="btn">Try Now</a>					
 				</div>
 				<div class="pricing-plan">
 					<div class="plan-circle">
 						<img src="src/img/standart.png" alt="">
 					</div>
-					<h4 class="plan-title">Standart</h4>
+					<h3 class="plan-title">Standart</h3>
 					<div class="plan-line"></div>
 					<ul class="plan-list">
 						<li class="plan-item">2gb Hosting</li>
@@ -168,12 +175,12 @@
 						<li class="plan-item">Free Support</li>
 					</ul>
 					<div class="price"><small>$</small>19.00</div>
-					<a href="#" class="btn btn-border">Try Now</a>
+					<a href="#" class="btn">Try Now</a>
 				</div>
 		</div>
-
 		</div>
 	</section>
+
 	<section class="bg-blue bg-img">
 		<div class="container testimonials">
 			<div class="testimonials-content">
@@ -223,6 +230,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="container">
 		<div class="news">
 			<h2 class="news-title">Latest News From Us</h2>
@@ -271,6 +279,7 @@
 				</div>
 			</div>
 	</section>
+
  <section class="bg-blue">
  		<div class="free">
  			<div class="free-content">
@@ -278,36 +287,40 @@
 	 		 <p class="news-post-desc">No credit card reauired</p>
  	  </div>
  	  <a href="#" class="free-btn">Get Stared →</a>
-</div>
+  </div>
  </section>
- <section class="bg-lightblue">
+
+ <section class="bg-lightblue" id="subscribe">
  	<div class="subscribe">
  		<h2 class="subscribe-title">AppSon</h2>
  		<form class="subscribe-form"	action="#">
- 			<input type="Email" class="subscribe-input"placeholder="Enter your Email">
+ 			<input type="Email" class="subscribe-input" placeholder="Enter your Email">
  			<button type="button" class="subscribe-btn">subscribe</button>
  		</form>
  	</div>
  </section>
-<footer class="bg-darkblue">
-	<div class="container">
-		<div class="footer">
-				<div class="footer-copyright">© 2018 Copyright, All Rights Reserved by AppSon</div>
-	 	<ul class="footer-list">
-		 	<li class="footer-item"><a href="#">Terms & Condition</a></li>
-		 	<li class="footer-item"><a href="#">Privacy Policy</a></li>
-		 	<li class="footer-item"><a href="#">Help</a></li>
-	 	</ul>
-	 	<div class="footer-icons">
-	 		<img src="src/img/footer-facebook.svg" alt="">
-	 		<img src="src/img/footer-twitter.svg" alt="">
-		 	<img src="src/img/footer-youtube.svg" alt="">
-		 </div>
-		</div>
-	</div>
-</footer>
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" charset="utf-8"></script>
+
+ <footer class="bg-darkblue">
+ 	<div class="container">
+ 		<div class="footer">
+ 				<div class="footer-copyright">© 2018 Copyright, All Rights Reserved by AppSon</div>
+ 	 	<ul class="footer-list">
+ 		 	<li class="footer-item"><a href="#">Terms & Condition</a></li>
+ 		 	<li class="footer-item"><a href="#">Privacy Policy</a></li>
+ 		 	<li class="footer-item"><a href="#">Help</a></li>
+ 	 	</ul>
+ 	 	<div class="footer-icons">
+ 	 		<img src="src/img/footer-facebook.svg" alt="">
+ 	 		<img src="src/img/footer-twitter.svg" alt="">
+ 		 	<img src="src/img/footer-youtube.svg" alt="">
+ 		 </div>
+    <div class="scroll-up"><a href="#home" class="scroll-to"><img src="src/img/scroll-arrow-up.svg" alt=""></a></div>
+ 		</div>
+ 	</div>
+ </footer>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<script src="src/script.js"></script>
 </body>
 </html>

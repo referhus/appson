@@ -1,38 +1,42 @@
 @media screen and (max-width: 1900px) {
  .bg-img {
 	 background-size: 40%;
-}
+ }
 }
 
 @media screen and (max-width: 1400px) {
  .bg-img {
-background-image: none;
-}
-.testimonials {
- align-items: center;
-}
+  background-image: none;
+ }
 
-	.testimonials-title {
-		text-align: center;
+ .testimonials {
+  align-items: center;
+
+  &-title {
+		 text-align: center;
 		}
+	}
 
-
-.owl-dots {
-	text-align: center;
-}
+ .owl-dots {
+ 	text-align: center;
+ }
 }
 
 
 @media screen and (max-width: 800px) {
-	.testimonials-content {
-	max-width: none;
-	}
+	.testimonials {
+  
+  &-title {
+   margin-top: 50px;
+  }
 
-	.testimonials-item {
-		margin: 0 auto;
-	}
+		&-content {
+	  max-width: none;
+	 }
 
-	.testimonials-item {
- max-width: 250px;
-	}
+  &-item {
+		 margin: 0 auto;
+   max-width: 250px;
+	 }
+ }
 }

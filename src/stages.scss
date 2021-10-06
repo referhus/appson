@@ -4,32 +4,32 @@
  flex-direction: column;
  text-align: center;
 
-	&-title {
+ &-title {
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
   margin-top: 113px;
-	}
+ }
 
-	&-subtitle {
+ &-subtitle {
   max-width: 800px;
   font-weight: 300;
   font-size: 16px;
   line-height: 150%;
   margin-top: 25px;
+ }
+
+ &-content {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+	 margin-top: 45px;
+	 padding-bottom: 137px;
+	 z-index: 1;
+	 position: relative;
 	}
 
-	&-content {
- display: flex;
- flex-direction: row;
- justify-content: space-around;
- margin-top: 45px;
- padding-bottom: 137px;
- z-index: 1;
- position: relative;
-	}
-
-	&-circle {
+	&-icon {
  height: 100px;
  width: 100px;
  border-radius: 50%;

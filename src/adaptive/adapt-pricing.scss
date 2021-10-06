@@ -1,21 +1,27 @@
 @media screen and (max-width: 1440px) {
-	.pricing-plan {
-		width: 250px;
-		padding: 50px 20px;
-	}
+	.pricing {
+
+		&-plan {
+		 width: 250px;
+		 padding: 50px 20px;
+	 }
+ }
 
 	.plan-title {
- 	margin-top: 20px;
+ 	margin-top: 30px;
  	margin-bottom: 10px;
-}
-.plan-circle {
-	width: 70px;
-	height: 70px;
-	&:after {
-		width: 100px;
-		height: 100px;
+ }
+
+	.plan-circle {
+		width: 70px;
+		height: 70px;
+		
+		&:after {
+			width: 100px;
+			height: 100px;
+		}
 	}
-}
+
 	.plan-line {
 		width: 200px;
  	margin-bottom: 10px;
@@ -31,6 +37,12 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+
+		&-desc {
+			align-items: center;
+   margin-bottom: 20px;
+		}
+
 		&-plans {
 			margin-top: 15px;
 		}
@@ -38,18 +50,28 @@
 }
 
 @media screen and (max-width: 630px) {
-	.pricing-plans {
-		flex-direction: column;
-	}
+	.pricing {
+	 	margin: 20px 0;
 
-	.pricing-plan {
-		margin-top: 20px;
-		&:last-child {
-			margin-left: 0;
+	 &-plans {
+	 	flex-direction: column;
+	 }
+
+  &-plan {
+		 margin-top: 20px;
+	
+		 &:last-child {
+		 	margin-left: 0;
+		 }
 		}
+
+	 &-desc {
+	  align-items: center;
+	  max-width: 300px;
+		}
+
+		&-btn {
+		 padding: 14px 40px;
+		}	
 	}
-.pricing-btn-default,
-.pricing-btn-border {
- padding: 14px 40px;
-}
 }

@@ -1,9 +1,6 @@
-@media screen and (max-width: 2100px) {
-}
-
 @media screen and (max-width: 550px) {
 	.line {
-display: none;
+  display: none;
 	}
 
 	.stages-content {
@@ -15,4 +12,10 @@ display: none;
 	.stage {
 		margin-top: 10px;
 	}
+}
+
+@media screen and (max-width: 400px) {
+ .stage {
+  width: 300px;
+ }
 }

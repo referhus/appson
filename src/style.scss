@@ -47,29 +47,70 @@ a {
  font-weight: 700;
  border-radius: 25px;
  text-decoration: none;
-}
-
-.btn-default {
- background: $LightBlue;
- padding: 20px 44px;
- color: #fff;
-}
-
-.btn-border {
  border: 2px solid $LightBlue;
- background: transparent;
+ background: #fff;
  color: $LightBlue;
  padding: 20px 44px;
+ transition: all 0.4s linear;
+
+ &:hover {
+  background: $LightBlue;
+  color: #fff;
+ }
 }
 
 header, 
 .bg-main {
-  background-image: url(img/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; 
+ background-image: url(img/background.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed; 
+}
+
+.bg-main {
+ position: relative;
 }
 
 .bg-blue {
 	background-color: #F5FCFD;
+}
+
+
+@media screen and (max-width: 2100px) {
+ .container {
+  max-width: 1240px;
+ }
+
+ .btn {
+  font-size: 14px;
+  line-height: 15px;
+
+		&-default {
+		 padding: 15px 30px;
+		}
+
+		&-border {
+		 padding: 15px 30px;
+		}
+ }
+}
+
+@media screen and (max-width: 860px) {
+ .container {
+ 	padding: 0 15px;
+ 	box-sizing: border-box;
+ }
+
+ .btn {
+		&-border {
+		margin-top: 10px;
+		}
+ }
+}
+
+@media screen and (max-width: 460px) {
+ header, 
+ .bg-main {
+ 	background: none;
+ }
 }

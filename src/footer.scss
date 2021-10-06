@@ -31,22 +31,28 @@
 		width: 100px;
 		display: flex;
 		justify-content: space-between;
+		
 		img {
 			cursor: pointer;
 		}
+ }
 }
 
-&:after {
-	content: "↑";
-	position: absolute;
-	width: 70px;
+.scroll-up {
+ display: flex;	
+ justify-content: center;
+ align-items: center;
+ width: 70px;
 	height: 70px;
- text-align: center;
 	color: $DarkBlue;
 	background: #fff;
 	border-radius: 50%;
-	font-size: 45px;
 	right: -5%;
 	cursor: pointer;
-}
+	opacity: .6;
+	transition: all .4s linear;
+
+	&:hover {
+  opacity: 1;
+	}
 }

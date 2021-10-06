@@ -7,6 +7,8 @@
 
 	&-desc {
 		width: 332px;
+		display: flex;
+  flex-direction: column;
 	}
 
 	&-btns {
@@ -15,28 +17,29 @@
 		margin-top: 40px;
 	}
 
-	&-btn-default {
+	&-btn {
 		font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   border-radius: 25px 0 0 25px;
   text-decoration: none;
-		background: $LightBlue;
+  border: 2px solid $LightBlue;
+  background: #fff;
+  color: $LightBlue;
   padding: 14px 54px;
-  color: #fff;
-	}
+  transition: all 0.4s linear;
+	
+	 &:nth-child(2) {
+   border-radius: 0 25px 25px 0;
+   border-left: none;
+	 }
 
-		&-btn-border {
-		font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  border-radius: 0 25px 25px 0;
-  text-decoration: none;
-	 border: 2px solid $LightBlue;
-	 background: #fff;
-	 color: $LightBlue;
-  padding: 14px 54px;
-	}
+  &:hover {
+   color: #fff;
+   background: $LightBlue;
+  }
+ }
+
 
 	&-plans {
 		display: flex;
@@ -52,11 +55,18 @@
  	width: 362px;
  	padding: 50px 100px;
  	box-sizing: border-box;
- }
+  cursor: pointer;
+  transition: all .3s linear;
 
- &-plan:last-child{
- 	margin-left: 30px;
+  &:last-child{
+ 	 margin-left: 30px;
+  }
  }
+}
+
+.pricing-plan:hover .plan-circle:after {
+ height: 130px;
+ width: 130px;
 }
 
 .plan-circle {
@@ -76,24 +86,26 @@
  	height: 114px;
  	border-radius: 50%;
  	background: #0063DD26;
-  }
- }
+  z-index: -1;
+  transition: all .3s linear;
 
- .plan-title {
- 	margin-top: 34px;
- 	margin-bottom: 25px;
- 	position: relative;
+ }
+}
+
+.plan-title {
+	margin-top: 34px;
+	margin-bottom: 25px;
+	position: relative;
 }
 
 .plan-line {
-	 	width: 303px;
- 		height: 0;
- 		border-top: 2px solid #E9F3F8;
- 		margin-bottom: 20px;
+ width: 303px;
+	height: 0;
+	border-top: 2px solid #E9F3F8;
+	margin-bottom: 20px;
 }
 
 .plan-list {
-
 }
 
 .plan-item {

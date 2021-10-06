@@ -1,69 +1,75 @@
 .about {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-margin-top: 60px;
-position: relative;
-z-index: 1;
-padding-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 60px;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 15px;
+	
+	&-image {
+	 border-radius: 20px;
 
-&-image {
- border-radius: 20px;
- img {
-  z-index: 1;
+	 img {
+	 z-index: 1;
+	 }
+
+	 &:before {
+		 content: "";
+		 position: absolute;
+		 width: 389px;
+		 height: 482px;
+		 background: linear-gradient(147.4deg, #0F7BFF 7.27%, #0063DD 93.68%);
+		 border-radius: 40px; 
+		 transform: matrix(0.77, -0.64, -0.64, -0.77, 0, 0);
+		 z-index: -1;
+		 top: -11%;
+	 }
  }
-}
 
-&-image:before {
-	content: "";
-	position: absolute;
-	width: 389px;
-	height: 482px;
- background: linear-gradient(147.4deg, #0F7BFF 7.27%, #0063DD 93.68%);
- border-radius: 40px; 
- transform: matrix(0.77, -0.64, -0.64, -0.77, 0, 0);
- z-index: -1;
- top: -11%;
-}
+ &-content {
+ 	width: 750px;
+ }
 
-&-content {
-	width: 750px;
-}
+ &-title {
+		font-weight: 500;
+	 font-size: 36px;
+	 line-height: 40px;
+	 color: #000;
+	 margin-bottom: 30px;
+	}
 
-&-title {
-	font-weight: 500;
- font-size: 36px;
- line-height: 40px;
- color: #000;
- margin-bottom: 30px;
-}
-
-&-subtitle {
-	font-weight: 300;
- font-size: 16px;
- line-height: 150%;
-}
+	&-subtitle {
+		font-weight: 300;
+	 font-size: 16px;
+	 line-height: 150%;
+	}
 }
 
 .more {
-display: flex;
-flex-direction: row;
-align-items: center;
-margin-top: 35px;
-cursor: pointer;
-
-p {
-	font-weight: 500;
- font-size: 16px;
- line-height: 150%;
- color: $DarkBlue;
- margin-right: 15px;
-}
-
-.arrow {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
-}
+	margin-top: 35px;
+	cursor: pointer;
+
+	p {
+		font-weight: 500;
+	 font-size: 16px;
+	 line-height: 150%;
+	 color: $DarkBlue;
+	 margin-right: 15px;
+	 transition: all 0.5s linear;
+	}
+
+	&:hover p {
+  font-weight: 700;
+	}
+
+	.arrow {
+		display: flex;
+		align-items: center;
+	}
 }
 

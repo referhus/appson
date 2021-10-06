@@ -1,26 +1,9 @@
-@media screen and (max-width: 2100px) {
- .footer {
-  &:after {
-   right: 2%;
-  }
-
-  &-icons {
-  	margin-left: -200px;
-  }
-
-  &-list {
-  	width: 300px;
-  	margin-left: -100px;
-  }
- }
-}
-
 @media screen and (max-width: 1240px) {
  .footer {
+
   &-copyright {
   	width: 250px;
   }
-
  }
 }
 
@@ -28,26 +11,37 @@
  .footer {
  	flex-direction: column;
  	align-items: center;
+  height: auto;
 
  	&-copyright {
- 		width: auto;
- 		text-align: center;
+ 	 width: auto;
+ 	 text-align: center;
  	}
 
  	&-list {
- 		width: 350px;
+ 	 width: 350px;
  	}
 
   &-list,
  	&-icons {
    margin-left: 0;	
  	}
+
+  &-icons {
+   margin-bottom: 10px; 
+  }
+
+ }
+
+ .scroll-up {
+  margin-bottom: 10px;
  }
 }
 
 @media screen and (max-width: 550px) {
  .footer {
  	height: auto;
+
   &:after {
    width: 50px;
    height: 50px;
@@ -55,8 +49,9 @@
   }
 
   &-list {
-  	flex-direction: column;
-  	align-items: center;
+   flex-direction: column;
+   align-items: center;
+   width: 300px;
   }
  }
 }
